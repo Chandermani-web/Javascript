@@ -6,7 +6,7 @@ body{
 
 .container{
   border: 1px solid black;
-  background: linear-gradient(-45deg, white, gray , black);
+  background: linear-gradient(-45deg, black, gray , white);
   /* background: linear-gradient(-45deg, red 25%, yellow 50%, green 75%); */
   border-radius: 30px;
   box-shadow: 0 0 10px 0 black;
@@ -23,9 +23,17 @@ body{
 input{
   padding: 10px;
   border-radius: 20px;
-  width: 200px;
+  width: 350px;
 }
 
 p{
   color: black;
+}
+
+button{
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: aqua;
+  margin-left: 35%;
 }

@@ -23,6 +23,8 @@ function Signup() {
       <label>
         <input type="password" placeholder="Enter Password" required />
       </label>
+      <br />
+      <button>Submit</button>
       <p>If you have already an account, then</p>
       <a href="/login">Login</a>
     </div>
